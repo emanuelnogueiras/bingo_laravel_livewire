@@ -26,8 +26,22 @@ class Bingo extends Component
 
     public function nuevaJugada()
     {        
+        $encontrado = false;
+        $veces = 0;
 
-        $numero = \random_int(1, 90);
+        do
+        {
+            $veces++;
+            $numero = \random_int(1, 90);
+            
+            if($this->resultados[$numero] == 0 || $veces > 300)
+            {
+                $encontrado = true;
+            }
+
+        }while($encontrado == false);
+
+
         $this->ultimoNumero = $numero;
         $this->resultados[$numero] = 1;
         
@@ -36,7 +50,7 @@ class Bingo extends Component
 
         sleep(1);
                     
-    }
+    }    
 
     public function iniciar()
     {

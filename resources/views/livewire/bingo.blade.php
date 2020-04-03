@@ -6,17 +6,17 @@
             <div class="row">
                 @foreach($resultados as $clave => $valor)
                     @if($valor == 0)
-                        <div class="col-1-10 resultado" style="min-width: 10%; min-height: 50px; text-align: center;">                                                    
+                        <div class="col-1-10 resultado" style="min-width: 10%; min-height: 60px; text-align: center;">                                                    
                             <span class="badge badge-secondary" style="font-size: 24px;">{{ str_pad($clave, 2, '0', STR_PAD_LEFT) }}</span>
                         </div>
                     @else
                         @if($clave == $ultimoNumero)
-                            <div class="col-1-10 resulado" style="min-width: 10%; min-height: 50px; text-align: center;">
-                                <span class="badge badge-danger" style="font-size: 24px;">{{ str_pad($clave, 2, '0', STR_PAD_LEFT) }}</span>
+                            <div class="col-1-10 resulado" style="min-width: 10%; min-height: 60px; text-align: center;">
+                                <span class="badge badge-success" style="font-size: 32px;"><strong>{{ str_pad($clave, 2, '0', STR_PAD_LEFT) }}</strong></span>
                             </div>
                         @else
-                            <div class="col-1-10 resultado" style="min-width: 10%; min-height: 50px; text-align: center;">
-                                <span class="badge badge-success" style="font-size: 24px;">{{ str_pad($clave, 2, '0', STR_PAD_LEFT) }}</span>
+                            <div class="col-1-10 resultado" style="min-width: 10%; min-height: 60px; text-align: center;">
+                                <span class="badge badge-danger" style="font-size: 24px;">{{ str_pad($clave, 2, '0', STR_PAD_LEFT) }}</span>
                             </div>
                         @endif
                     @endif
