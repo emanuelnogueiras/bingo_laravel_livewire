@@ -24,7 +24,7 @@ Hemos añadido un modo manual, mediante el que puedes hacer click en el botón "
 
 ### Modo Automático
 
-También hemos añadido un modo automñatico que funciona con un tiempo de 5 segundos entre cada número.
+También hemos añadido un modo automático que funciona con un tiempo de 5 segundos entre cada número.
 (por supuesto que puedes configurarlo tu mismo como quieras)
 
 ### ¿Cómo se gana?
@@ -32,9 +32,8 @@ También hemos añadido un modo automñatico que funciona con un tiempo de 5 seg
 Una vez que tu, o alguno de los jugadores complete un cartón, se debe gritar: ¡BINGO!, y el juego debe volver a comenzar.
 
 Para hacerlo mas emocionante, se puede apostar una cantidad de dinero en cada jugada o por la "compra" de cartones.
-
 El que gana, se lleva todo.
 
-## License
+## Licencia
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Tanto el Framework Laravel como el desarrollo de este juego es open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
