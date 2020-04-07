@@ -16,13 +16,24 @@ También puedes estar atento y unirte al canal de Youtube de Laravel en Español
 
 El desarrollo es muy sencillo, el sistema comienza a decir números del 1 al 90, con un tiempo de 5 segundos de espera, y lo que debes hacer es ir marcando o señalando en tus cartones los números que van saliendo.
 
+![ScreenShot](https://fileserver.aganplus.com/ficheros/download/wYqZcLopqyXLvbRQIacCeUtEk7wjtd5lPD4c7Iabd4sct8pgautwBHxEhjwifNYb)
+
+### Modo Manual de Juego
+
+Hemos añadido un modo manual, mediante el que puedes hacer click en el botón "Jugar Una Vez" y el juego solo dice un número cada vez que presionas el botón.
+
+### Modo Automático
+
+También hemos añadido un modo automñatico que funciona con un tiempo de 5 segundos entre cada número.
+(por supuesto que puedes configurarlo tu mismo como quieras)
+
+### ¿Cómo se gana?
+
 Una vez que tu, o alguno de los jugadores complete un cartón, se debe gritar: ¡BINGO!, y el juego debe volver a comenzar.
 
 Para hacerlo mas emocionante, se puede apostar una cantidad de dinero en cada jugada o por la "compra" de cartones.
 
 El que gana, se lleva todo.
-
-![ScreenShot](https://fileserver.aganplus.com/ficheros/download/wYqZcLopqyXLvbRQIacCeUtEk7wjtd5lPD4c7Iabd4sct8pgautwBHxEhjwifNYb)
 
 ## License
 
