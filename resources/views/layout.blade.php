@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2|PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Animaciones CSS -->
+    <link rel="stylesheet" href="/css/animate.css">
 
     <!-- Styles -->
     <style>
       html, body {
-          background-color: #fff;
-          color: #636b6f;
-          font-family: 'Nunito', sans-serif;
-          font-weight: 200;
-          height: 100vh;
-          margin: 0;
+          background-color: #eee;
+          /*color: #636b6f;*/
+          font-family: 'PT Sans', sans-serif;
       }      
 
     </style>
